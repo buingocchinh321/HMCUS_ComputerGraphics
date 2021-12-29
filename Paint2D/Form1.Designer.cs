@@ -251,31 +251,31 @@ namespace Paint2D
             this.rotateToolStripMenuItem,
             this.zoomToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(211, 128);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(123, 100);
             this.contextMenuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.contextMenuStrip1_ItemClicked);
             // 
             // clearToolStripMenuItem
             // 
             this.clearToolStripMenuItem.Name = "clearToolStripMenuItem";
-            this.clearToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.clearToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.clearToolStripMenuItem.Text = "Clear";
             // 
             // moveToolStripMenuItem
             // 
             this.moveToolStripMenuItem.Name = "moveToolStripMenuItem";
-            this.moveToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.moveToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.moveToolStripMenuItem.Text = "Move";
             // 
             // rotateToolStripMenuItem
             // 
             this.rotateToolStripMenuItem.Name = "rotateToolStripMenuItem";
-            this.rotateToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.rotateToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.rotateToolStripMenuItem.Text = "Rotate";
             // 
             // zoomToolStripMenuItem
             // 
             this.zoomToolStripMenuItem.Name = "zoomToolStripMenuItem";
-            this.zoomToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.zoomToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.zoomToolStripMenuItem.Text = "Zoom";
             // 
             // Form1
@@ -298,7 +298,7 @@ namespace Paint2D
             this.Controls.Add(this.bt_Line);
             this.Controls.Add(this.openGLControl);
             this.Name = "Form1";
-            this.Text = "DHMT_Lab1_19127109";
+            this.Text = "Paint Clone";
             ((System.ComponentModel.ISupportInitialize)(this.openGLControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);
